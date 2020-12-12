@@ -1,7 +1,11 @@
 OS template using the nut kernel
 ================================
-For this template you will need to get the nut kernel DLL (.so file) and place it in the src directory.
+This is a small OS template that uses the nut kernel.
 
+
+Requirements
+------------
+For this template you will need to build the nut kernel, which will be downloaded as a submodule. You can find more information of how to build it for every architecture in HdbSoft/nut repository.
 
 
 Make the template
@@ -9,3 +13,6 @@ Make the template
 In this template you will find a Makefile, which can be used to build the template:
 
 $ make SOURCE=src MAIN=main.c
+
+
+You can configure lots of variables with this Makefile.
